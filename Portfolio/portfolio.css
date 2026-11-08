@@ -49,6 +49,9 @@ h1 a:hover {
   grid-column: span 12;
   font-weight: bold;
 }
+audio {
+  grid-column: span 12;
+}
 #row1 {
   grid-column: span 12;
   display: grid;
@@ -99,13 +102,13 @@ h2 a:hover {
 #projectheader {
   grid-column: span 4;
 }
-.project1images {
+.project4images, .project1images, .project2images, .project3images {
   width: 100%;
   height: auto;
   display: block;
   grid-column: span 4;
 }
-.project2images, .project3images {
+.project5images, .project6images {
   width: 100%;
   height: auto;
   display: block;
@@ -116,7 +119,7 @@ h2 a:hover {
   height: 100%;
   max-width: 100%;
 }
-#RTGCarousel, #WTMCarousel, #TBGCarousel {
+.project-carousel {
   margin-bottom: 24px;
   border: 2px solid blue;
   height: 300px;
@@ -125,7 +128,7 @@ h2 a:hover {
   min-width: 0;
   box-sizing: border-box;
 }
-#RTGCarousel .f-carousel__slide, #WTMCarousel .f-carousel__slide, #TBGCarousel .f-carousel__slide {
+.project-carousel .f-carousel__slide {
   text-align: center;
   padding: 24px;
   background: rgb(0, 0, 50);

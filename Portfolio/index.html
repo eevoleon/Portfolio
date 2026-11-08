@@ -19,22 +19,37 @@
 		<p id="intro">Hi! My name is Christopher Posner and I'm an aspiring game designer. I am currently enrolled in the game design program at Illinois State University and I'm learning as much as I can about the game design process. I also enjoy writing poems every once in a while, and I figure that writing poems will help with writing stories for games in the future. Below is all of the projects I have worked on during my time in the game design program.</p>
 			<div id="row1">
 				<section>
-					<h2><a href="project1.html" target="_self">Project 1</a></h2>
-					<p>This is a placeholder for a future portfolio project. Add a description of the project here.</p>
+					<h2><a href="project1.html" target="_self">Stroke of Fate</a></h2>
+					<div class="f-carousel project-carousel" id="SoFCarousel">
+						<div class="f-carousel__slide"><img class="slides" src="SoF1.png" alt="Stroke of Fate level 1"></div>
+						<div class="f-carousel__slide"><img class="slides" src="SoF2.png" alt="Stroke of Fate level 2"></div>
+						<div class="f-carousel__slide"><img class="slides" src="SoF3.png" alt="Stroke of Fate level 3"></div>
+					</div>
+					<p><i>Stroke of Fate</i> is a roguelike mini-golf deckbuilder where you stack wild multipliers and game-bending ball upgrades to turn impossible pars into legendary high-score runs.</p>
 				</section>
 				<section>
-					<h2><a href="project2.html" target="_self">Project 2</a></h2>
-					<p>This is a placeholder for a future portfolio project. Add a description of the project here.</p>
+					<h2><a href="project2.html" target="_self">Space Platformer</a></h2>
+					<div class="f-carousel project-carousel" id="SPCarousel">
+						<div class="f-carousel__slide"><img class="slides" src="SP1.png" alt="Space Platformer section 1"></div>
+						<div class="f-carousel__slide"><img class="slides" src="SP2.png" alt="Space Platformer section 2"></div>
+						<div class="f-carousel__slide"><img class="slides" src="SP3.png" alt="Space Platformer section 3"></div>
+					</div>
+					<p><i>Space Platformer</i> is a side-scrolling platformer game set in space, where players navigate through various levels filled with obstacles and enemies.</p>
 				</section>
 				<section>
-					<h2><a href="project3.html" target="_self">Project 3</a></h2>
-					<p>This is a placeholder for a future portfolio project. Add a description of the project here.</p>
+					<h2><a href="project3.html" target="_self">Rhythm Platformer</a></h2>
+					<div class="f-carousel project-carousel" id="RPCarousel">
+						<div class="f-carousel__slide"><img class="slides" src="RP1.png" alt="Rhythm Platformer section 1"></div>
+						<div class="f-carousel__slide"><img class="slides" src="RP2.png" alt="Rhythm Platformer section 2"></div>
+						<div class="f-carousel__slide"><img class="slides" src="RP3.png" alt="Rhythm Platformer section 3"></div>
+					</div>
+					<p><i>Rhythm Platformer</i> is a unique blend of rhythm and platforming gameplay, where timing and precision are key to success.</p>
 				</section>
 			</div>
 			<div id="row2">
 				<section>
 					<h2><a href="project4.html" target="_self">Rowed to Glory</a></h2>
-					<div class="f-carousel" id="RTGCarousel">
+					<div class="f-carousel project-carousel" id="RTGCarousel">
 						<div class="f-carousel__slide"><img class="slides" src="RTG_board.jpg" alt="Board"></div>
 						<div class="f-carousel__slide"><img class="slides" src="RTG_cards.jpg" alt="Cards"></div>
 						<div class="f-carousel__slide"><img class="slides" src="RTG_rulebook.png" alt="Rulebook"></div>
@@ -43,7 +58,7 @@
 				</section>
 				<section>
 					<h2><a href="project5.html" target="_self">Who's Texting Me?</a></h2>
-					<div class="f-carousel" id="WTMCarousel">
+					<div class="f-carousel project-carousel" id="WTMCarousel">
 						<div class="f-carousel__slide"><img class="slides" src="WTM_prompt.png" alt="Prompt"></div>
 						<div class="f-carousel__slide"><img class="slides" src="WTM_emoji.png" alt="Emoji"></div>
 						<div class="f-carousel__slide"><img class="slides" src="WTM_meme.png" alt="Meme"></div>
@@ -53,7 +68,7 @@
 				</section>
 				<section>
 					<h2><a href="project6.html" target="_self">The Book Game</a></h2>
-					<div class="f-carousel" id="TBGCarousel">
+					<div class="f-carousel project-carousel" id="TBGCarousel">
 						<div class="f-carousel__slide"><img class="slides" src="TBGRulebook.png" alt="Rulebook"></div>
 						<div class="f-carousel__slide"><img class="slides" src="TBG1.png" alt="Card"></div>
 						<div class="f-carousel__slide"><img class="slides" src="TBG2.png" alt="Card"></div>
@@ -95,7 +110,7 @@
 			</footer>
 	</div>
 	<script>
-		for (const id of ["RTGCarousel", "WTMCarousel", "TBGCarousel"]) {
+		for (const id of ["SoFCarousel", "SPCarousel", "RPCarousel", "RTGCarousel", "WTMCarousel", "TBGCarousel"]) {
 			Carousel(document.getElementById(id), {}, { Arrows }).init();
 		}
 	</script>
